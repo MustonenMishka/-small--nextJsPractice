@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.latest {
+  width: 90%;
+  max-width: 80rem;
+  margin: $size-8 auto;
+
+  h2 {
+    font-size: $size-8;
+    color: $font-color-dark;
+    text-align: center;
+    text-shadow: $text-shadow-2;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest h2 {
+    font-size: $size-16;
+  }
+}

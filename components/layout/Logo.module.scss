@@ -1,0 +1,17 @@
+@import "styles/variables";
+
+.logo {
+  text-transform: uppercase;
+  font-size: $size-5;
+  font-weight: bold;
+  font-family: 'Comfortaa', sans-serif;
+  color: $color-secondary;
+  text-shadow: 4px 4px 8px #613c51,
+  -4px -4px 8px #9f6283;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: $size-8;
+  }
+}

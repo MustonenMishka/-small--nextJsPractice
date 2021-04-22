@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
+//COLORS
+$color-primary-1: #d1d8ec;
+$color-primary-2: #BCBCD6;
+$color-primary-3: #ABA1BE;
+$color-primary-4: #9C85A4;
+$color-primary-5: #8E6A88;
+$color-primary-6: #804f6a;
+
+$color-secondary: #D89383;
+$color-tertiary: #2B8681;
+
+$color-success-light: #a2f0bc;
+$color-success-dark: #12bd4b;
+
+$color-error-light: #f1acc9;
+$color-error-dark: #a10c4a;
+
+//SIZES
+$size-1: 0.25rem;
+$size-2: 0.5rem;
+$size-3: 0.75rem;
+$size-4: 1rem;
+$size-5: 1.25rem;
+$size-6: 1.5rem;
+$size-8: 2rem;
+$size-16: 4rem;
+$size-20: 5rem;
+$size-40: 10rem;
+
+//FONTS
+$font-color-dark: #414756;
+$font-color-light: #F3F9FF;
+$font-color-contrast: #3492FA;
+
+$text-shadow-1: 0 3px 4px rgb(0 0 0 / 10%);
+$text-shadow-2: 4px 4px 8px #8f8da0, -4px -4px 8px #e9e7ff; // color-black, backgr - primary1
+
+//Neumorphism
+$box-shadow-1: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff; //back - primary-1
+$box-shadow-2: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+rgba(0, 0, 0, 0.12) 0px -12px 30px,
+rgba(0, 0, 0, 0.12) 0px 4px 6px,
+rgba(0, 0, 0, 0.17) 0px 12px 13px,
+rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+

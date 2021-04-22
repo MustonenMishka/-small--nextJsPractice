@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.posts {
+  width: 90%;
+  max-width: 60rem;
+  margin: $size-8 auto;
+
+  h1 {
+    font-size: $size-8;
+    color: $font-color-dark;
+    text-shadow: $text-shadow-2;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .posts h1 {
+    font-size: $size-16;
+  }
+}

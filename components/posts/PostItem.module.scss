@@ -1,0 +1,45 @@
+@import "styles/variables";
+
+.post {
+  background-color: $color-primary-1;
+  text-align: center;
+  box-shadow: $box-shadow-1;
+  border-radius: $size-3;
+  overflow: hidden;
+
+  a {
+    color: $color-primary-6;
+  }
+}
+
+.image {
+  padding: $size-4;
+  width: 100%;
+  max-height: 20rem;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    border-radius: $size-1;
+  }
+}
+
+.content {
+  padding: $size-4;
+
+  h3 {
+    margin: $size-2 0;
+    font-size: $size-6;
+    text-shadow: $text-shadow-1;
+  }
+
+  time {
+    font-style: italic;
+    color: $color-primary-3;
+    font-weight: 600;
+  }
+
+  p {
+    line-height: $size-6;
+  }
+}

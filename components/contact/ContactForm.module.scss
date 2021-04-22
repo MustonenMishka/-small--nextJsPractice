@@ -1,0 +1,79 @@
+@import "styles/variables";
+
+.contact {
+  margin: $size-8 auto;
+  border-radius: 6px;
+  background-color: $color-primary-1;
+  width: 90%;
+  max-width: 50rem;
+  padding: $size-4;
+  box-shadow: $box-shadow-1;
+  font-size: $size-6;
+
+  h1 {
+    font-size: $size-8;
+    margin: $size-4 0;
+    text-align: left;
+  }
+
+  label {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: $size-2 0 $size-1 0;
+  }
+}
+
+.form {
+  padding: $size-5;
+
+  input, textarea {
+    font: inherit;
+    padding: $size-1;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid $color-primary-5;
+    background-color: $color-primary-1;
+    resize: none;
+  }
+
+  button {
+    font: inherit;
+    cursor: pointer;
+    background-color: $color-secondary;
+    border: 1px solid $color-secondary;
+    padding: $size-2 $size-4;
+    border-radius: 4px;
+    color: $font-color-dark;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-color: $color-tertiary;
+      border-color: $color-tertiary;
+      color: $font-color-light;
+    }
+  }
+}
+
+.controls {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control {
+  flex: 1;
+  min-width: 10rem;
+}
+
+.actions {
+  margin-top: $size-4;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .contact h1 {
+    font-size: $size-16;
+    text-align: center;
+  }
+}

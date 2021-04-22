@@ -1,0 +1,33 @@
+@import "styles/variables";
+
+.content {
+  width: 95%;
+  max-width: 60rem;
+  margin: $size-8 auto;
+  font-size: $size-5;
+  line-height: $size-8;
+  background-color: $color-primary-1;
+  border-radius: 6px;
+  padding: $size-4;
+  box-shadow: $box-shadow-1;
+
+  p {
+    color: $color-primary-6;
+  }
+
+  .image {
+    margin: $size-4 auto;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  a, hr, li {
+    color: $color-tertiary;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: $size-8;
+  }
+}
